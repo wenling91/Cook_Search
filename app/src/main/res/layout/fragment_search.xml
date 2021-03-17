@@ -21,9 +21,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:queryHint="輸入食物名稱、食材..."
-                app:iconifiedByDefault="false" />
+                app:iconifiedByDefault="false" >
+            </SearchView>
 
         </com.google.android.material.appbar.AppBarLayout>
+
+        <Button
+            android:id="@+id/cam_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="open camera"
+            android:textColor="#FFFFFF"/>
 
         <ListView
             android:id="@+id/search_list"
