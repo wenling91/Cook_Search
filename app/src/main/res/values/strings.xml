@@ -18,4 +18,5 @@
     <string name="steps">步驟</string>
     <string name="need_food">需要的食材 :</string>
     <string name="sauce">需要的調味料 :</string>
+    <string name="hint">輸入食材、食譜名稱...</string>
 </resources>
